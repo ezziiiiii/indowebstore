@@ -498,53 +498,73 @@ body {
     width: 250px;
     background-color: #212121;
     padding: 30px 15px; }
-    .menu-side .global {
-      padding: 0px;
-      margin: 0px; }
-      .menu-side .global li.list-global {
-        list-style: none;
-        height: 40px;
+    .menu-side .heading-menu-side {
+      padding-bottom: 20px;
+      border-bottom: 1px solid #ECECEC;
+      margin-bottom: 20px; }
+      .menu-side .heading-menu-side .menu-account, .menu-side .heading-menu-side .menu-user {
+        margin-top: 10px; }
+      .menu-side .heading-menu-side .menu-user .dropdown-custom {
+        padding-left: 20px; }
+        .menu-side .heading-menu-side .menu-user .dropdown-custom li {
+          height: 30px;
+          list-style: none;
+          padding: 9px 0px; }
+      .menu-side .heading-menu-side a {
+        color: #fff;
+        font-family: 'PT Serif', serif;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 3px; }
+      .menu-side .heading-menu-side a:hover {
+        text-decoration: none;
+        color: #EE7E32; }
+    .menu-side .panel-group .panel {
+      background-color: transparent;
+      margin: 0px;
+      border: none; }
+      .menu-side .panel-group .panel .panel-heading {
+        background-color: transparent;
         padding: 10px 0px; }
-        .menu-side .global li.list-global a {
+        .menu-side .panel-group .panel .panel-heading a {
           color: #fff;
+          letter-spacing: 3px;
           font-family: 'PT Serif', serif;
           font-size: 12px;
-          font-weight: 600;
-          letter-spacing: 3px;
-          -webkit-transition: .2s color ease-in;
-          -moz-transition: .2s color ease-in;
-          -ms-transition: .2s color ease-in;
-          -o-transition: .2s color ease-in;
-          transition: .2s color ease-in; }
-        .menu-side .global li.list-global a:hover {
+          font-weight: 600; }
+        .menu-side .panel-group .panel .panel-heading a:hover {
           text-decoration: none;
           color: #EE7E32; }
-      .menu-side .global li.heading-menu-side {
-        border-bottom: 1px solid #ECECEC;
-        padding: 20px 0px;
-        margin-bottom: 10px; }
-        .menu-side .global li.heading-menu-side form {
-          margin-bottom: 20px; }
-        .menu-side .global li.heading-menu-side ul {
-          padding: 0px; }
-          .menu-side .global li.heading-menu-side ul li {
-            list-style: none;
-            height: 40px;
-            padding: 10px 0px; }
-        .menu-side .global li.heading-menu-side a {
-          color: #fff;
-          font-family: 'PT Serif', serif;
-          font-size: 12px;
-          font-weight: 600;
-          letter-spacing: 3px;
-          -webkit-transition: .2s color ease-in;
-          -moz-transition: .2s color ease-in;
-          -ms-transition: .2s color ease-in;
-          -o-transition: .2s color ease-in;
-          transition: .2s color ease-in; }
-        .menu-side .global li.heading-menu-side a:hover {
-          text-decoration: none;
-          color: #EE7E32; } }
+      .menu-side .panel-group .panel .dropdown-custom ul {
+        padding-left: 20px;
+        margin: 0px; }
+        .menu-side .panel-group .panel .dropdown-custom ul li {
+          list-style: none;
+          height: 30px; }
+          .menu-side .panel-group .panel .dropdown-custom ul li a {
+            color: #fff;
+            letter-spacing: 2px;
+            font-family: 'PT Serif', serif;
+            font-size: 12px;
+            font-weight: 600; }
+          .menu-side .panel-group .panel .dropdown-custom ul li a:hover {
+            text-decoration: none;
+            color: #EE7E32; }
+          .menu-side .panel-group .panel .dropdown-custom ul li .dropdown-custom-2 {
+            background-color: #fff;
+            position: relative;
+            left: 100px;
+            top: -18px;
+            display: none;
+            border-left: 3px solid #EE7E32;
+            width: 150px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175); }
+            .menu-side .panel-group .panel .dropdown-custom ul li .dropdown-custom-2 li a {
+              color: #212121; }
+            .menu-side .panel-group .panel .dropdown-custom ul li .dropdown-custom-2 li a:hover {
+              color: #EE7E32; }
+        .menu-side .panel-group .panel .dropdown-custom ul li:hover .dropdown-custom-2 {
+          display: block; } }
 .banner-slider {
   /********************
   *****Slide effect
