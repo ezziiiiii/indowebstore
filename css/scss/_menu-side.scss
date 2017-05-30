@@ -106,6 +106,15 @@
                                 box-shadow: $shadow-dropdown;
                                 padding: 0px;
                             }
+                            .dropdown-custom-2::before {
+                                content: "";
+                            position: absolute;
+                            left: -11%;
+                            margin-left: 30;
+                            border-width: 10px;
+                            border-style: solid;
+                            border-color: transparent $orange transparent transparent;
+                            }
                             list-style: none;
                             height: 30px;
                         }
