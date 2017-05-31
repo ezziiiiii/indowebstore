@@ -466,7 +466,7 @@
               </li>
             </ul>
           </div>
-      </div>
+      </div><!--END OF .HEADING-MENU-SIDE-->
        <div class="panel-group">
          <div class="panel panel-default">
           <div class="panel-heading">
@@ -523,8 +523,8 @@
             <a href="#">CONTACT</a>
           </div>
         </div>
-      </div> 
-    </div>
+      </div> <!--END OF .PANEL-GROUP-->
+    </div><!--END OF .MENU-SIDE-->
 
     <div class="banner-slider" id="banner-slider">
       <div id="bootstrap-touch-slider" class="carousel bs-slider fade  control-round indicators-line" data-ride="carousel" data-pause="hover" data-interval="5000" >
@@ -627,54 +627,126 @@
           <div class="row">
             <div class="content-voucher col-md-9 col-sm-9">
               <div class="wr-content-voucher">
-                <div class="heading-content">
+                <div class="heading-content" id="tab">
                   <ul>
                     <li>
-                      <a href="#" class="active">PULSA</a>
+                      <a href="#pulsa" class="active" data-toggle="tab">PULSA</a>
                     </li>
                     <li>
-                      <a href="#">PAKET DATA</a>
+                      <a href="#paket" data-toggle="tab">PAKET DATA</a>
                     </li>
                     <li>
-                      <a href="#">TOKEN LISTRIK</a>
+                      <a href="#listrik" data-toggle="tab">TOKEN LISTRIK</a>
                     </li>
                   </ul>
                 </div><!--END OF .HEADING-CONTENT-->
-                <div class="body-content">
-                  <ul>
-                    <li>
-                      <a>
-                        <input type="text" class="form-control" placeholder="Nomor Telepon...">
-                      </a>
-                    </li>
-                    <li>
-                    <a>
-                        <select class="form-control" id="sel1">
-                          <option>
-                            <p>Nominal</p>
-                          </option>
-                          <option>
-                            <p>Rp.10.000</p>
-                          </option>
-                          <option>
-                            <p>Rp.20.000</p>
-                          </option>
-                          <option>
-                            <p>Rp.50.000</p>
-                          </option>
-                          <option>
-                            <p>Rp.100.000</p>
-                          </option>
-                        </select>
-                    </a>
-                    </li>
-                    <li>
-                    <a>
-                        <button type="button" class="btn">BELI</button>
-                    </a>
-                    </li>
-                  </ul>
-                </div><!--END OF .BODY-CONTENT-->
+                <div class="tab-content">
+                  <div class="body-content tab-pane active" id="pulsa">
+                    <ul>
+                      <li>
+                        <a>
+                          <input type="text" class="form-control" placeholder="Nomor Telepon...">
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                            <select class="form-control" id="sel1">
+                              <option>
+                                <p>Nominal</p>
+                              </option>
+                              <option>
+                                <p>Rp.10.000</p>
+                              </option>
+                              <option>
+                                <p>Rp.20.000</p>
+                              </option>
+                              <option>
+                                <p>Rp.50.000</p>
+                              </option>
+                              <option>
+                                <p>Rp.100.000</p>
+                              </option>
+                            </select>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                            <button type="button" class="btn">BELI</button>
+                        </a>
+                      </li>
+                    </ul>
+                  </div><!--END OF .BODY-CONTENT-->
+                  <div class="body-content tab-pane" id="paket">
+                    <ul>
+                      <li>
+                        <a>
+                          <input type="text" class="form-control" placeholder="Nomor Telepon...">
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                            <select class="form-control" id="sel1">
+                              <option>
+                                <p>Kuota</p>
+                              </option>
+                              <option>
+                                <p>1GB</p>
+                              </option>
+                              <option>
+                                <p>2GB</p>
+                              </option>
+                              <option>
+                                <p>3GB</p>
+                              </option>
+                              <option>
+                                <p>4GB</p>
+                              </option>
+                            </select>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                            <button type="button" class="btn">BELI</button>
+                        </a>
+                      </li>
+                    </ul>
+                  </div><!--END OF .BODY-CONTENT-->
+                  <div class="body-content tab-pane" id="listrik">
+                    <ul>
+                      <li>
+                        <a>
+                          <input type="text" class="form-control" placeholder="Nomor Telepon...">
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                            <select class="form-control" id="sel1">
+                              <option>
+                                <p>Nominal</p>
+                              </option>
+                              <option>
+                                <p>Rp.100.000</p>
+                              </option>
+                              <option>
+                                <p>Rp.200.000</p>
+                              </option>
+                              <option>
+                                <p>Rp.500.000</p>
+                              </option>
+                              <option>
+                                <p>Rp.1.000.000</p>
+                              </option>
+                            </select>
+                        </a>
+                      </li>
+                      <li>
+                        <a>
+                            <button type="button" class="btn">BELI</button>
+                        </a>
+                      </li>
+                    </ul>
+                  </div><!--END OF .BODY-CONTENT-->
+                </div><!--END OF .TAB-CONTENT-->
               </div><!--END OF .WR-CONTENT-VOUCHER-->
               <div class="content-adv-promo hidden-xs">
                 <div class="wr-content-adv">
@@ -963,183 +1035,370 @@
 
       <div class="pilihan">
         <div class="wr-pilihan container">
-          <div class="heading-pilihan">
-            <a href="#" class="sale active">
+          <div class="heading-pilihan" id="tab">
+            <a href="#onsale" class="sale active" data-toggle="tab">
               <h2>ON SALE</h2>
             </a>
-            <a href="#" class="popular">
+            <a href="#popular" class="popular" data-toggle="tab">
               <h2>POPULAR</h2>
             </a>
           </div>
-          <div class="list-item row">
-            <div class="col-sm-4 col-md-3">
-                <div class="col-item">
-                    <div class="photo">
-                        <img src="images/product.jpg" class="img-responsive" alt="a" />
-                        <div class="action-choice text-center">
-                          <button class="btn">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-eye" aria-hidden="true"></i>
-                          </button>
-                        </div>
-                    </div><!--END OF .PHOTO-->
-                    <div class="info">
-                        <div class="images-product-old">
-                            <div class="product-old text-center">
-                                <p>Sample Product</p>
-                                <div class="potongan">
-                                  <p class="price-text-color sebelum pull-left">Rp.170.000</p>
-                                  <p class="price-text-color pull-right">Rp.100.000</p>
-                                  <div class="clearfix"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div><!--END OF .INFO-->
-                </div><!--END OF .COL-ITEM-->
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <div class="col-item">
-                    <div class="photo">
-                        <img src="images/product.jpg" class="img-responsive" alt="a" />
-                        <div class="action-choice text-center">
-                          <button class="btn">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-eye" aria-hidden="true"></i>
-                          </button>
-                        </div>
-                    </div><!--END OF .PHOTO-->
-                    <div class="info">
-                        <div class="images-product-old">
-                            <div class="product-old text-center">
-                                <p>Sample Product</p>
-                                <p class="price-text-color">Rp.100.000</p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div><!--END OF .INFO-->
-                </div><!--END OF .COL-ITEM-->
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <div class="col-item">
-                    <div class="photo">
-                        <img src="images/product.jpg" class="img-responsive" alt="a" />
-                        <div class="action-choice text-center">
-                          <button class="btn">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-eye" aria-hidden="true"></i>
-                          </button>
-                        </div>
-                    </div><!--END OF .PHOTO-->
-                    <div class="info">
-                        <div class="images-product-old">
-                            <div class="product-old text-center">
-                                <p>Sample Product</p>
-                                <p class="price-text-color">Rp.100.000</p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div><!--END OF .INFO-->
-                </div><!--END OF .COL-ITEM-->
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <div class="col-item">
-                    <div class="photo">
-                        <img src="images/product.jpg" class="img-responsive" alt="a" />
-                        <div class="action-choice text-center">
-                          <button class="btn">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-eye" aria-hidden="true"></i>
-                          </button>
-                        </div>
-                    </div><!--END OF .PHOTO-->
-                    <div class="info">
-                        <div class="images-product-old">
-                            <div class="product-old text-center">
-                                <p>Sample Product</p>
-                                <p class="price-text-color">Rp.100.000</p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div><!--END OF .INFO-->
-                </div><!--END OF .COL-ITEM-->
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <div class="col-item">
-                    <div class="photo">
-                        <img src="images/product.jpg" class="img-responsive" alt="a" />
-                        <div class="action-choice text-center">
-                          <button class="btn">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-eye" aria-hidden="true"></i>
-                          </button>
-                        </div>
-                    </div><!--END OF .PHOTO-->
-                    <div class="info">
-                        <div class="images-product-old">
-                            <div class="product-old text-center">
-                                <p>Sample Product</p>
-                                <p class="price-text-color">Rp.100.000</p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div><!--END OF .INFO-->
-                </div><!--END OF .COL-ITEM-->
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <div class="col-item">
-                    <div class="photo">
-                        <img src="images/product.jpg" class="img-responsive" alt="a" />
-                        <div class="action-choice text-center">
-                          <button class="btn">
-                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-heart-o" aria-hidden="true"></i>
-                          </button>
-                          <button class="btn">
-                            <i class="fa fa-eye" aria-hidden="true"></i>
-                          </button>
-                        </div>
-                    </div><!--END OF .PHOTO-->
-                    <div class="info">
-                        <div class="images-product-old">
-                            <div class="product-old text-center">
-                                <p>Sample Product</p>
-                                <p class="price-text-color">Rp.100.000</p>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div><!--END OF .INFO-->
-                </div><!--END OF .COL-ITEM-->
-            </div>
-            <div class="clearfix"></div>
-          </div><!--END OF .LIST-ITEM-->
+          <div class="tab-content">
+            <div class="list-item row tab-pane active" id="onsale">
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <div class="potongan">
+                                    <p class="price-text-color sebelum pull-left">Rp.170.000</p>
+                                    <p class="price-text-color pull-right">Rp.100.000</p>
+                                    <div class="clearfix"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <div class="potongan">
+                                    <p class="price-text-color sebelum pull-left">Rp.170.000</p>
+                                    <p class="price-text-color pull-right">Rp.100.000</p>
+                                    <div class="clearfix"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <div class="potongan">
+                                    <p class="price-text-color sebelum pull-left">Rp.170.000</p>
+                                    <p class="price-text-color pull-right">Rp.100.000</p>
+                                    <div class="clearfix"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <div class="potongan">
+                                    <p class="price-text-color sebelum pull-left">Rp.170.000</p>
+                                    <p class="price-text-color pull-right">Rp.100.000</p>
+                                    <div class="clearfix"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <div class="potongan">
+                                    <p class="price-text-color sebelum pull-left">Rp.170.000</p>
+                                    <p class="price-text-color pull-right">Rp.100.000</p>
+                                    <div class="clearfix"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <div class="potongan">
+                                    <p class="price-text-color sebelum pull-left">Rp.170.000</p>
+                                    <p class="price-text-color pull-right">Rp.100.000</p>
+                                    <div class="clearfix"></div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="clearfix"></div>
+            </div><!--END OF .LIST-ITEM-->
+            <div class="list-item row tab-pane" id="popular">
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <p class="price-text-color">Rp.100.000</p>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <p class="price-text-color">Rp.100.000</p>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <p class="price-text-color">Rp.100.000</p>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <p class="price-text-color">Rp.100.000</p>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <p class="price-text-color">Rp.100.000</p>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="col-sm-4 col-md-3">
+                  <div class="col-item">
+                      <div class="photo">
+                          <img src="images/product.jpg" class="img-responsive" alt="a" />
+                          <div class="action-choice text-center">
+                            <button class="btn">
+                              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            </button>
+                            <button class="btn">
+                              <i class="fa fa-eye" aria-hidden="true"></i>
+                            </button>
+                          </div>
+                      </div><!--END OF .PHOTO-->
+                      <div class="info">
+                          <div class="images-product-old">
+                              <div class="product-old text-center">
+                                  <p>Sample Product</p>
+                                  <p class="price-text-color">Rp.100.000</p>
+                              </div>
+                          </div>
+                          <div class="clearfix"></div>
+                      </div><!--END OF .INFO-->
+                  </div><!--END OF .COL-ITEM-->
+              </div>
+              <div class="clearfix"></div>
+            </div><!--END OF .LIST-ITEM-->
+          </div>
         </div><!--END OF .WR-PILIHAN-->
       </div><!--END OF .PILIHAN-->
 
