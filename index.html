@@ -22,6 +22,9 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
+    <!-- nicescroll -->
+    <script src="js/jquery.nicescroll.min.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -350,6 +353,17 @@
                   <a href="#">
                     <i class="fa fa-male" aria-hidden="true"></i> Men
                   </a>
+                  <ul class="dropdown-custom-2">
+                    <li>
+                      <a href="#">Bluss</a>
+                    </li>
+                    <li>
+                      <a href="#">Dress</a>
+                    </li>
+                    <li>
+                      <a href="#">Kemeja</a>
+                    </li>
+                  </ul>
                 </li>
             </ul><!--END OF .DROPDOWN-CUSTOM-->
           </li>
@@ -1671,6 +1685,17 @@
             $("#show-menu").click(function(){
                 $("#menu-side").animate({width: 'toggle'});
                 $("#menu-side").css({'top':  138, 'position': 'fixed', 'z-index': 900 });
+            });
+        });
+
+        // script untuk nicescroll
+        $(document).ready(function() {  
+            'use strict';
+
+            $(".list-notification").niceScroll({
+                cursorcolor: "#eaeaea",
+                cursorwidth: "8px",
+                cursorborder: "none",
             });
         });
 

@@ -364,7 +364,8 @@ body {
           .menu .wr-menu .menu-list .list .dropdown-custom li {
             border-top: 1px solid #ECECEC;
             display: inline-block;
-            width: 100%; }
+            width: 100%;
+            position: relative; }
             .menu .wr-menu .menu-list .list .dropdown-custom li a {
               padding: 10px 20px;
               font-family: 'PT Serif', serif;
@@ -379,15 +380,15 @@ body {
             display: none;
             position: absolute;
             background-color: #fff;
-            left: 158px;
-            top: -3px;
+            left: 100%;
+            top: 0;
             width: 100%;
             border-left: 3px solid #EE7E32; }
             .menu .wr-menu .menu-list .list .dropdown-custom .dropdown-custom-2 li {
-              height: 47px; }
+              height: 43px; }
               .menu .wr-menu .menu-list .list .dropdown-custom .dropdown-custom-2 li a {
                 display: block;
-                padding: 12px 20px; }
+                padding: 10px 20px; }
               .menu .wr-menu .menu-list .list .dropdown-custom .dropdown-custom-2 li a:hover {
                 background-color: #eaeaea; }
 
