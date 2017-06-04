@@ -1872,9 +1872,19 @@ body {
         -ms-transform: scale(1.08);
         -o-transform: scale(1.08);
         transform: scale(1.08); }
-    .list-product .left .best-product .body-best-product .detail p {
+    .list-product .left .best-product .body-best-product .detail a {
       font-family: 'Open-Sans', sans-serif;
-      font-weight: 600; }
+      font-weight: 600;
+      font-size: 16px;
+      color: #212121;
+      -webkit-transition: .2s color ease-in;
+      -moz-transition: .2s color ease-in;
+      -ms-transition: .2s color ease-in;
+      -o-transition: .2s color ease-in;
+      transition: .2s color ease-in; }
+    .list-product .left .best-product .body-best-product .detail a:hover {
+      text-decoration: none;
+      color: #EE7E32; }
     .list-product .left .best-product .body-best-product .detail .price-text-color {
       color: #47A1DE; }
     .list-product .left .best-product .body-best-product .detail .sebelum {
