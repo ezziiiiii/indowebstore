@@ -2025,7 +2025,7 @@ body {
           .checkout .wr-checkout .left .shipping .panel-body form table tr td p, .checkout .wr-checkout .left .payment .panel-body form table tr td p {
             margin-bottom: 0px;
             letter-spacing: 2px; }
-          .checkout .wr-checkout .left .shipping .panel-body form table tr td input, .checkout .wr-checkout .left .shipping .panel-body form table tr td select, .checkout .wr-checkout .left .payment .panel-body form table tr td input, .checkout .wr-checkout .left .payment .panel-body form table tr td select {
+          .checkout .wr-checkout .left .shipping .panel-body form table tr td input, .checkout .wr-checkout .left .shipping .panel-body form table tr td .show-tick, .checkout .wr-checkout .left .payment .panel-body form table tr td input, .checkout .wr-checkout .left .payment .panel-body form table tr td .show-tick {
             margin-bottom: 15px; }
 
 /*# sourceMappingURL=custom.css.map */
