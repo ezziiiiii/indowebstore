@@ -1939,7 +1939,7 @@ body {
     .checkout .wr-checkout .right .cart .panel-heading-custom {
       background-color: #264C84; }
       .checkout .wr-checkout .right .cart .panel-heading-custom h3, .checkout .wr-checkout .right .cart .panel-heading-custom a {
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         color: #fff; }
       .checkout .wr-checkout .right .cart .panel-heading-custom a:hover {
         text-decoration: none;
@@ -2012,24 +2012,85 @@ body {
             transition: .2s background-color ease-in; }
           .checkout .wr-checkout .right .cart .list-cart .list .bayar button:hover {
             background-color: #212121; }
-  .checkout .wr-checkout .left .shipping, .checkout .wr-checkout .left .payment {
+  .checkout .wr-checkout .left .shipping {
     border-color: #264C84; }
-    .checkout .wr-checkout .left .shipping .panel-heading-custom, .checkout .wr-checkout .left .payment .panel-heading-custom {
+    .checkout .wr-checkout .left .shipping .panel-heading-custom {
       background-color: #264C84; }
-      .checkout .wr-checkout .left .shipping .panel-heading-custom h3, .checkout .wr-checkout .left .payment .panel-heading-custom h3 {
+      .checkout .wr-checkout .left .shipping .panel-heading-custom h3 {
         color: #fff;
-        letter-spacing: 1px; }
-    .checkout .wr-checkout .left .shipping .panel-body, .checkout .wr-checkout .left .payment .panel-body {
+        letter-spacing: 2px; }
+    .checkout .wr-checkout .left .shipping .panel-body {
       padding: 15px 0px; }
-      .checkout .wr-checkout .left .shipping .panel-body form table, .checkout .wr-checkout .left .payment .panel-body form table {
+      .checkout .wr-checkout .left .shipping .panel-body form table {
         width: 100%; }
-        .checkout .wr-checkout .left .shipping .panel-body form table tr td, .checkout .wr-checkout .left .payment .panel-body form table tr td {
+        .checkout .wr-checkout .left .shipping .panel-body form table tr td {
           padding: 0px 15px; }
-          .checkout .wr-checkout .left .shipping .panel-body form table tr td p, .checkout .wr-checkout .left .payment .panel-body form table tr td p {
+          .checkout .wr-checkout .left .shipping .panel-body form table tr td p {
             margin-bottom: 0px;
             letter-spacing: 2px; }
-          .checkout .wr-checkout .left .shipping .panel-body form table tr td input, .checkout .wr-checkout .left .shipping .panel-body form table tr td .show-tick, .checkout .wr-checkout .left .payment .panel-body form table tr td input, .checkout .wr-checkout .left .payment .panel-body form table tr td .show-tick {
+          .checkout .wr-checkout .left .shipping .panel-body form table tr td input, .checkout .wr-checkout .left .shipping .panel-body form table tr td .show-tick {
             margin-bottom: 15px; }
+  .checkout .wr-checkout .left .metode-payment {
+    border-color: #264C84; }
+    .checkout .wr-checkout .left .metode-payment .panel-heading-custom {
+      background-color: #264C84; }
+      .checkout .wr-checkout .left .metode-payment .panel-heading-custom h3 {
+        color: #fff;
+        letter-spacing: 2px; }
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio div {
+      clear: both;
+      overflow: hidden; }
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio label {
+      width: 100%;
+      border-radius: 3px;
+      border: 1px solid #D1D3D4;
+      font-weight: normal; }
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="radio"]:empty,
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="checkbox"]:empty {
+      display: none; }
+      .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="radio"]:empty ~ label,
+      .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="checkbox"]:empty ~ label {
+        position: relative;
+        line-height: 2.5em;
+        text-indent: 3.25em;
+        margin-top: 2em;
+        cursor: pointer;
+        user-select: none; }
+        .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="radio"]:empty ~ label:before,
+        .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="checkbox"]:empty ~ label:before {
+          position: absolute;
+          display: block;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          content: '';
+          width: 2.5em;
+          background: #D1D3D4;
+          border-radius: 3px 0 0 3px; }
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="radio"]:hover:not(:checked) ~ label,
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+      color: #888; }
+      .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="radio"]:hover:not(:checked) ~ label:before,
+      .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+        content: '\2714';
+        text-indent: .9em;
+        color: #C2C2C2; }
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="radio"]:checked ~ label,
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="checkbox"]:checked ~ label {
+      color: #777; }
+      .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="radio"]:checked ~ label:before,
+      .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="checkbox"]:checked ~ label:before {
+        content: '\2714';
+        text-indent: .9em;
+        color: #333;
+        background-color: #ccc; }
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="radio"]:focus ~ label:before,
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio input[type="checkbox"]:focus ~ label:before {
+      box-shadow: 0 0 0 3px #999; }
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio-info input[type="radio"]:checked ~ label:before,
+    .checkout .wr-checkout .left .metode-payment .panel-body .funkyradio-info input[type="checkbox"]:checked ~ label:before {
+      color: #fff;
+      background-color: #47A1DE; }
 
 .page-cart .wr-page-cart .cart {
   border-color: #264C84; }

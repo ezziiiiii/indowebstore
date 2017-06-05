@@ -683,46 +683,25 @@
                       </div><!--END OF .PANEL-BODY-->
                   </div><!--END OF .PANEL-->
 
-                  <div class="panel panel-default payment">
+                  <div class="panel panel-default metode-payment">
                       <div class="panel-heading panel-heading-custom">
-                        <h3 class="panel-title capslock">scure payment</h3>
+                        <h3 class="panel-title capslock"> metode payment</h3>
                       </div><!--END OF .PANEL-HEADING-->
                       <div class="panel-body">
-                        <form>
-                          <table>
-                            <tr>
-                              <td colspan="2">
-                                <p class="capital">card type:</p>
-                                <select class="selectpicker show-tick form-control">
-                                  <option>
-                                    <p>Visa</p>
-                                  </option>
-                                  <option>
-                                    <p>Master Card</p>
-                                  </option>
-                                </select>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td colspan="2">
-                                <p class="capital">credit card number:</p>
-                                <input type="text" class="form-control input-md">
-                              </td>
-                            </tr>
-                            <tr>
-                              <td colspan="2">
-                                <p class="capital">card CVV:</p>
-                                <input type="text" class="form-control input-md">
-                              </td>
-                            </tr>
-                            <tr>
-                              <td colspan="2">
-                                <p class="capital">expiration date:</p>
-                                <input type="text" class="form-control input-md">
-                              </td>
-                            </tr>
-                          </table>
-                        </form>
+                          <div class="funkyradio">
+                            <div class="funkyradio-info">
+                                <input type="radio" name="radio" id="radio1" />
+                                <label for="radio1" class="capital">transfer</label>
+                            </div>
+                            <div class="funkyradio-info">
+                                <input type="radio" name="radio" id="radio2"/>
+                                <label for="radio2" class="capital">indomart</label>
+                            </div>
+                            <div class="funkyradio-info">
+                                <input type="radio" name="radio" id="radio3" />
+                                <label for="radio3" class="capital">alfamart</label>
+                            </div>
+                          </div><!--END OF .FUNKYRADIO-->
                       </div><!--END OF .PANEL-BODY-->
                   </div><!--END OF .PANEL-->
                </div><!--END OF .LEFT-->
@@ -878,7 +857,15 @@
           $("#menu-side").css({'display': 'none' });
             $("#show-menu").click(function(){
                 $("#menu-side").animate({width: 'toggle'});
-                $("#menu-side").css({'top':  138, 'position': 'fixed', 'z-index': 900 });
+                $("#menu-side").css({'display': 'block', 'z-index': 900 });
+            });
+        });
+
+        $(document).ready(function(){
+          $("#test").css({'display': 'none' });
+            $("#show-test").click(function(){
+                $("#test").animate({height: 'toggle'});
+                $("#test").css({'top':  138, 'position': 'fixed', 'z-index': 900 });
             });
         });
 
