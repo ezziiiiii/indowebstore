@@ -97,6 +97,39 @@
                 border-color: $biru;
             }
         }
+
+        .left {
+            .shipping, .payment {
+                .panel-heading-custom {
+                    h3 {
+                        color: $putih;
+                        letter-spacing: 1px;
+                    }
+                    background-color: $biru;
+                }
+                .panel-body {
+                    form {
+                        table {
+                            tr {
+                                td {
+                                    p {
+                                        margin-bottom: 0px;
+                                        letter-spacing: 2px;
+                                    }
+                                    input, select {
+                                        margin-bottom: 15px;
+                                    }
+                                    padding: 0px 15px;
+                                }
+                            }
+                            width: 100%;
+                        }
+                    }
+                    padding: 15px 0px;
+                }
+                border-color: $biru;
+            }
+        }
         padding: 0px;
     }
 }

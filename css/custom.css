@@ -2009,5 +2009,23 @@ body {
             transition: .2s background-color ease-in; }
           .checkout .wr-checkout .right .cart .list-cart .list .bayar button:hover {
             background-color: #212121; }
+  .checkout .wr-checkout .left .shipping, .checkout .wr-checkout .left .payment {
+    border-color: #264C84; }
+    .checkout .wr-checkout .left .shipping .panel-heading-custom, .checkout .wr-checkout .left .payment .panel-heading-custom {
+      background-color: #264C84; }
+      .checkout .wr-checkout .left .shipping .panel-heading-custom h3, .checkout .wr-checkout .left .payment .panel-heading-custom h3 {
+        color: #fff;
+        letter-spacing: 1px; }
+    .checkout .wr-checkout .left .shipping .panel-body, .checkout .wr-checkout .left .payment .panel-body {
+      padding: 15px 0px; }
+      .checkout .wr-checkout .left .shipping .panel-body form table, .checkout .wr-checkout .left .payment .panel-body form table {
+        width: 100%; }
+        .checkout .wr-checkout .left .shipping .panel-body form table tr td, .checkout .wr-checkout .left .payment .panel-body form table tr td {
+          padding: 0px 15px; }
+          .checkout .wr-checkout .left .shipping .panel-body form table tr td p, .checkout .wr-checkout .left .payment .panel-body form table tr td p {
+            margin-bottom: 0px;
+            letter-spacing: 2px; }
+          .checkout .wr-checkout .left .shipping .panel-body form table tr td input, .checkout .wr-checkout .left .shipping .panel-body form table tr td select, .checkout .wr-checkout .left .payment .panel-body form table tr td input, .checkout .wr-checkout .left .payment .panel-body form table tr td select {
+            margin-bottom: 15px; }
 
 /*# sourceMappingURL=custom.css.map */
