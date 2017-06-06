@@ -2092,103 +2092,156 @@ body {
       color: #fff;
       background-color: #47A1DE; }
 
-.page-cart .wr-page-cart .cart {
-  border-color: #264C84; }
-  .page-cart .wr-page-cart .cart .panel-heading-custom {
-    background-color: #264C84;
-    border: 1px solid #264C84; }
-    .page-cart .wr-page-cart .cart .panel-heading-custom h3 {
-      color: #fff;
-      letter-spacing: 1px; }
-  .page-cart .wr-page-cart .cart .list-cart {
-    padding: 0px 15px; }
-    .page-cart .wr-page-cart .cart .list-cart .list {
-      padding: 15px 0px;
-      border-top: 1px solid #264C84; }
-      .page-cart .wr-page-cart .cart .list-cart .list .image {
-        position: relative;
-        overflow: hidden; }
-        .page-cart .wr-page-cart .cart .list-cart .list .image img {
-          filter: brightness(70%);
-          -webkit-filter: brightness(70%);
-          -moz-filter: brightness(70%);
-          -ms-filter: brightness(70%);
-          -o-filter: brightness(70%);
-          -webkit-transition: 1s ease;
-          -moz-transition: 1s ease;
-          -ms-transition: 1s ease;
-          -o-transition: 1s ease;
-          transition: 1s ease; }
-        .page-cart .wr-page-cart .cart .list-cart .list .image img:hover {
-          filter: brightness(100%);
-          -webkit-filter: brightness(100%);
-          -moz-filter: brightness(100%);
-          -ms-filter: brightness(100%);
-          -o-filter: brightness(100%);
-          -webkit-transform: scale(1.08);
-          -moz-transform: scale(1.08);
-          -ms-transform: scale(1.08);
-          -o-transform: scale(1.08);
-          transform: scale(1.08); }
-      .page-cart .wr-page-cart .cart .list-cart .list .detail {
-        margin-bottom: 10px; }
-        .page-cart .wr-page-cart .cart .list-cart .list .detail h4 {
-          font-family: 'Open Sans', sans-serif;
-          font-weight: 600;
-          letter-spacing: 1px;
-          margin: 0px; }
-        .page-cart .wr-page-cart .cart .list-cart .list .detail a {
-          color: #212121;
+.page-cart .wr-page-cart {
+  padding: 0px; }
+  .page-cart .wr-page-cart .cart {
+    border-color: #264C84; }
+    .page-cart .wr-page-cart .cart .panel-heading-custom {
+      background-color: #264C84;
+      border: 1px solid #264C84; }
+      .page-cart .wr-page-cart .cart .panel-heading-custom h3 {
+        color: #fff;
+        letter-spacing: 1px; }
+    .page-cart .wr-page-cart .cart .list-cart {
+      padding: 0px 15px; }
+      .page-cart .wr-page-cart .cart .list-cart .list {
+        padding: 15px 0px;
+        border-top: 1px solid #264C84; }
+        .page-cart .wr-page-cart .cart .list-cart .list .image {
+          position: relative;
+          overflow: hidden; }
+          .page-cart .wr-page-cart .cart .list-cart .list .image img {
+            filter: brightness(70%);
+            -webkit-filter: brightness(70%);
+            -moz-filter: brightness(70%);
+            -ms-filter: brightness(70%);
+            -o-filter: brightness(70%);
+            -webkit-transition: 1s ease;
+            -moz-transition: 1s ease;
+            -ms-transition: 1s ease;
+            -o-transition: 1s ease;
+            transition: 1s ease; }
+          .page-cart .wr-page-cart .cart .list-cart .list .image img:hover {
+            filter: brightness(100%);
+            -webkit-filter: brightness(100%);
+            -moz-filter: brightness(100%);
+            -ms-filter: brightness(100%);
+            -o-filter: brightness(100%);
+            -webkit-transform: scale(1.08);
+            -moz-transform: scale(1.08);
+            -ms-transform: scale(1.08);
+            -o-transform: scale(1.08);
+            transform: scale(1.08); }
+        .page-cart .wr-page-cart .cart .list-cart .list .detail {
+          margin-bottom: 10px; }
+          .page-cart .wr-page-cart .cart .list-cart .list .detail h4 {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 0px; }
+          .page-cart .wr-page-cart .cart .list-cart .list .detail a {
+            color: #212121;
+            -webkit-transition: .2s color ease-in;
+            -moz-transition: .2s color ease-in;
+            -ms-transition: .2s color ease-in;
+            -o-transition: .2s color ease-in;
+            transition: .2s color ease-in; }
+          .page-cart .wr-page-cart .cart .list-cart .list .detail a:hover {
+            text-decoration: none;
+            color: #EE7E32; }
+          .page-cart .wr-page-cart .cart .list-cart .list .detail p {
+            margin-top: 10px;
+            margin-bottom: 0px; }
+        .page-cart .wr-page-cart .cart .list-cart .list .qty p {
+          margin-bottom: 0px; }
+        .page-cart .wr-page-cart .cart .list-cart .list .qty input {
+          text-align: center; }
+        .page-cart .wr-page-cart .cart .list-cart .list .harga button {
+          padding: 0px;
+          background-color: transparent;
           -webkit-transition: .2s color ease-in;
           -moz-transition: .2s color ease-in;
           -ms-transition: .2s color ease-in;
           -o-transition: .2s color ease-in;
           transition: .2s color ease-in; }
-        .page-cart .wr-page-cart .cart .list-cart .list .detail a:hover {
-          text-decoration: none;
-          color: #EE7E32; }
-        .page-cart .wr-page-cart .cart .list-cart .list .detail p {
-          margin-top: 10px;
-          margin-bottom: 0px; }
-      .page-cart .wr-page-cart .cart .list-cart .list .qty p {
-        margin-bottom: 0px; }
-      .page-cart .wr-page-cart .cart .list-cart .list .qty input {
-        text-align: center; }
-      .page-cart .wr-page-cart .cart .list-cart .list .harga button {
-        padding: 0px;
-        background-color: transparent;
-        -webkit-transition: .2s color ease-in;
-        -moz-transition: .2s color ease-in;
-        -ms-transition: .2s color ease-in;
-        -o-transition: .2s color ease-in;
-        transition: .2s color ease-in; }
-      .page-cart .wr-page-cart .cart .list-cart .list .harga button:hover {
-        color: #CC0000; }
-      .page-cart .wr-page-cart .cart .list-cart .list .total span {
-        color: grey; }
-      .page-cart .wr-page-cart .cart .list-cart .list .belanja a {
-        background-color: #47A1DE;
-        color: #fff;
+        .page-cart .wr-page-cart .cart .list-cart .list .harga button:hover {
+          color: #CC0000; }
+        .page-cart .wr-page-cart .cart .list-cart .list .total span {
+          color: grey; }
+        .page-cart .wr-page-cart .cart .list-cart .list .belanja a {
+          background-color: #47A1DE;
+          color: #fff;
+          letter-spacing: 2px;
+          font-family: 'PT Serif', serif;
+          -webkit-transition: .2s background-color ease-in;
+          -moz-transition: .2s background-color ease-in;
+          -ms-transition: .2s background-color ease-in;
+          -o-transition: .2s background-color ease-in;
+          transition: .2s background-color ease-in; }
+        .page-cart .wr-page-cart .cart .list-cart .list .belanja a:hover {
+          background-color: #212121; }
+        .page-cart .wr-page-cart .cart .list-cart .list .bayar a {
+          background-color: #27AE60;
+          color: #fff;
+          letter-spacing: 2px;
+          font-family: 'PT Serif', serif;
+          -webkit-transition: .2s background-color ease-in;
+          -moz-transition: .2s background-color ease-in;
+          -ms-transition: .2s background-color ease-in;
+          -o-transition: .2s background-color ease-in;
+          transition: .2s background-color ease-in; }
+        .page-cart .wr-page-cart .cart .list-cart .list .bayar a:hover {
+          background-color: #212121; }
+
+.page-konfirmasi .wr-page-konfirmasi {
+  padding: 0px; }
+  .page-konfirmasi .wr-page-konfirmasi .left .konfirmasi {
+    border: 1px solid #264C84; }
+    .page-konfirmasi .wr-page-konfirmasi .left .konfirmasi .panel-heading {
+      background-color: #264C84; }
+      .page-konfirmasi .wr-page-konfirmasi .left .konfirmasi .panel-heading h3 {
         letter-spacing: 2px;
-        font-family: 'PT Serif', serif;
-        -webkit-transition: .2s background-color ease-in;
-        -moz-transition: .2s background-color ease-in;
-        -ms-transition: .2s background-color ease-in;
-        -o-transition: .2s background-color ease-in;
-        transition: .2s background-color ease-in; }
-      .page-cart .wr-page-cart .cart .list-cart .list .belanja a:hover {
-        background-color: #212121; }
-      .page-cart .wr-page-cart .cart .list-cart .list .bayar a {
+        color: #fff; }
+    .page-konfirmasi .wr-page-konfirmasi .left .konfirmasi .panel-body form table {
+      width: 100%; }
+      .page-konfirmasi .wr-page-konfirmasi .left .konfirmasi .panel-body form table tr td p {
+        margin-bottom: 0px;
+        letter-spacing: 2px; }
+      .page-konfirmasi .wr-page-konfirmasi .left .konfirmasi .panel-body form table tr td input {
+        margin-bottom: 15px; }
+      .page-konfirmasi .wr-page-konfirmasi .left .konfirmasi .panel-body form table tr td button {
         background-color: #27AE60;
         color: #fff;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
         font-family: 'PT Serif', serif;
+        font-weight: 600;
         -webkit-transition: .2s background-color ease-in;
         -moz-transition: .2s background-color ease-in;
         -ms-transition: .2s background-color ease-in;
         -o-transition: .2s background-color ease-in;
         transition: .2s background-color ease-in; }
-      .page-cart .wr-page-cart .cart .list-cart .list .bayar a:hover {
+      .page-konfirmasi .wr-page-konfirmasi .left .konfirmasi .panel-body form table tr td button:hover {
         background-color: #212121; }
+  .page-konfirmasi .wr-page-konfirmasi .right .status {
+    border: 1px solid #264C84; }
+    .page-konfirmasi .wr-page-konfirmasi .right .status .panel-heading {
+      background-color: #264C84; }
+      .page-konfirmasi .wr-page-konfirmasi .right .status .panel-heading h3 {
+        letter-spacing: 2px;
+        color: #fff; }
+    .page-konfirmasi .wr-page-konfirmasi .right .status .panel-body {
+      padding: 0px; }
+      .page-konfirmasi .wr-page-konfirmasi .right .status .panel-body .list-status {
+        padding: 15px;
+        border-top: 1px solid #264C84; }
+        .page-konfirmasi .wr-page-konfirmasi .right .status .panel-body .list-status span {
+          font-size: 12px;
+          color: #b6b6b6;
+          letter-spacing: 1px; }
+        .page-konfirmasi .wr-page-konfirmasi .right .status .panel-body .list-status p {
+          margin-bottom: 0px;
+          margin-top: 5px; }
+        .page-konfirmasi .wr-page-konfirmasi .right .status .panel-body .list-status h4 {
+          margin-bottom: 0px; }
 
 /*# sourceMappingURL=custom.css.map */

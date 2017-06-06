@@ -535,120 +535,81 @@
       </div> 
     </div>
 
-    <div class="page-cart">
-        <div class="wr-page-cart container">
+    <div class="page-konfirmasi">
+        <div class="wr-page-konfirmasi container">
            <div class="row">
-               <div class="col-md-12 col-sm-12 col-xs-12">
-                   <div class="panel panel-default cart">
-                     <div class="panel-heading panel-heading-custom">
-                        <h3 class="panel-title capslock">REVIEW ORDER</h3>
-                     </div><!--END OF .PANEL-HEADING-->
-                     <div class="panel-body list-cart">
-                        <div class="list row">
-                            <div class=" col-md-4 col-sm-4 col-xs-4">
-                                <div class="image">
-                                    <img src="images/icon-shop2.jpeg" class="img-responsive">
-                                </div>
-                            </div>
-                            <div class=" col-md-5 col-sm-5 col-xs-5">
-                                <div class="detail">
-                                    <h4 class="capital">
-                                        <a href="#">nama barang</a>
-                                    </h4>
-                                    <p class="capital">code: 111111</p>
-                                </div>
-                                <div class="qty">
-                                    <p class="capital">quantity:</p>
-                                    <div class="input-group col-md-4 col-sm-4 col-xs-4">
-                                        <span class="input-group-btn">
-                                            <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-                                                <span class="glyphicon glyphicon-minus"></span>
+               <div class="left col-md-6 col-sm-6">
+                   <div class="panel panel-default konfirmasi">
+                        <div class="panel-heading">
+                            <h3 class="panel-title capslock">konfirmasi</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p class="capital">nama di rekening:</p>
+                                            <input type="text" class="form-control input-md">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="capital">nomer rekening:</p>
+                                            <input type="text" class="form-control input-md">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="capital">nomer rekening tujuan:</p>
+                                            <input type="text" class="form-control input-md">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p class="capital">jumlah transfer:</p>
+                                            <input type="text" class="form-control input-md">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <button class="btn btn-block btn-md capslock">
+                                                <i class="fa fa-check-square-o" aria-hidden="true"></i> konfirmasi
                                             </button>
-                                        </span>
-                                        <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
-                                        <span class="input-group-btn">
-                                            <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
-                                                <span class="glyphicon glyphicon-plus"></span>
-                                            </button>
-                                        </span>
-                                    </div>
-                                </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </div>
+                    </div>
+               </div>
+               <div class="right col-md-6 col-sm-6">
+                   <div class="panel panel-default status">
+                        <div class="panel-heading">
+                            <h3 class="panel-title capslock">status order</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-status">
+                                <span class="capslock">nomer resi</span>
+                                <p class="capslock">12345678910</p>
                             </div>
-                            <div class=" col-md-3 col-sm-3 col-xs-3">
-                                <div class="harga">
-                                    <p class="capital pull-left">rp. 200.000</p>
-                                    <button class="btn pull-right">
-                                        <i class="fa fa-times fa-lg" aria-hidden="true"></i>
-                                    </button>
-                                </div>
+                            <div class="list-status">
+                                <span class="capslock">status</span>
+                                <h4 class="capslock">menunggu pembayaran</h4>
                             </div>
-                        </div><!--END OF .LIST-->
-                        <div class="list row">
-                            <div class=" col-md-4 col-sm-4 col-xs-4">
-                                <div class="image">
-                                    <img src="images/icon-shop1.jpeg" class="img-responsive">
-                                </div>
+                            <div class="list-status">
+                                <span class="capslock">total pembayaran</span>
+                                <p class="capital">rp. 300.000</p>
                             </div>
-                            <div class=" col-md-5 col-sm-5 col-xs-5">
-                                <div class="detail">
-                                    <h4 class="capital">
-                                        <a href="#">nama barang</a>
-                                    </h4>
-                                    <p class="capital">code: 111111</p>
-                                </div>
-                                <div class="qty">
-                                    <p class="capital">quantity:</p>
-                                    <div class="input-group col-md-4 col-sm-4 col-xs-4">
-                                        <span class="input-group-btn">
-                                            <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-                                                <span class="glyphicon glyphicon-minus"></span>
-                                            </button>
-                                        </span>
-                                        <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
-                                        <span class="input-group-btn">
-                                            <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
-                                                <span class="glyphicon glyphicon-plus"></span>
-                                            </button>
-                                        </span>
-                                    </div>
-                                </div>
+                            <div class="list-status">
+                                <span class="capslock">alamat pengiriman</span>
+                                <p class="capital">jl.kutilang no.3</p>
                             </div>
-                            <div class=" col-md-3 col-sm-3 col-xs-3">
-                                <div class="harga">
-                                    <p class="capital pull-left">rp. 200.000</p>
-                                    <button class="btn pull-right">
-                                        <i class="fa fa-times fa-lg" aria-hidden="true"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div><!--END OF .LIST-->
-                        <div class="list row">
-                            <div class=" col-md-9 col-sm-9 col-xs-9">
-                                <div class="total">
-                                    <p class="capital">total harga barang:</p>
-                                    <span class="capital">(harga belum termasuk ongkos kirim)</span>
-                                </div>
-                            </div>
-                            <div class=" col-md-3 col-sm-3 col-xs-3">
-                                <div class="harga">
-                                    <p class="capital">rp. 400.000</p>
-                                </div>
-                            </div>
-                        </div><!--END OF .LIST-->
-                        <div class="list row">
-                            <div class="belanja col-md-6 col-sm-6 col-xs-6">
-                                <a href="#" class="capslock btn btn-md pull-left">lanjut belanja</a>
-                            </div>
-                            <div class="bayar col-md-6 col-sm-6 col-xs-6">
-                                <a href="#" class="capslock btn btn-md pull-right">lanjut bayar</a>
-                            </div>
-                        </div><!--END OF .LIST-->
-                     </div><!--END OF .PANEL-BODY-->
-                   </div><!--END OF .PANEL-->
+                        </div>
+                    </div>
                </div>
            </div><!--END OF .ROW-->
-        </div><!--END OF .WR-PAGE-CART-->
-    </div><!--END OF .PAGE-CART-->
+        </div><!--END OF .WR-CHECKOUT-->
+    </div><!--END OF .CHECKOUT-->
 
 
     <div class="footer">
@@ -798,7 +759,15 @@
           $("#menu-side").css({'display': 'none' });
             $("#show-menu").click(function(){
                 $("#menu-side").animate({width: 'toggle'});
-                $("#menu-side").css({'top':  138, 'position': 'fixed', 'z-index': 900 });
+                $("#menu-side").css({'display': 'block', 'z-index': 900 });
+            });
+        });
+
+        $(document).ready(function(){
+          $("#test").css({'display': 'none' });
+            $("#show-test").click(function(){
+                $("#test").animate({height: 'toggle'});
+                $("#test").css({'top':  138, 'position': 'fixed', 'z-index': 900 });
             });
         });
 
@@ -972,81 +941,6 @@
         // Curently there are no option available.
 
         $('#bootstrap-touch-slider').bsTouchSlider();
-
-
-        //plugin bootstrap minus and plus
-        //http://jsfiddle.net/laelitenetwork/puJ6G/
-        $('.btn-number').click(function(e){
-            e.preventDefault();
-            
-            fieldName = $(this).attr('data-field');
-            type      = $(this).attr('data-type');
-            var input = $("input[name='"+fieldName+"']");
-            var currentVal = parseInt(input.val());
-            if (!isNaN(currentVal)) {
-                if(type == 'minus') {
-                    
-                    if(currentVal > input.attr('min')) {
-                        input.val(currentVal - 1).change();
-                    } 
-                    if(parseInt(input.val()) == input.attr('min')) {
-                        $(this).attr('disabled', true);
-                    }
-
-                } else if(type == 'plus') {
-
-                    if(currentVal < input.attr('max')) {
-                        input.val(currentVal + 1).change();
-                    }
-                    if(parseInt(input.val()) == input.attr('max')) {
-                        $(this).attr('disabled', true);
-                    }
-
-                }
-            } else {
-                input.val(0);
-            }
-        });
-        $('.input-number').focusin(function(){
-        $(this).data('oldValue', $(this).val());
-        });
-        $('.input-number').change(function() {
-            
-            minValue =  parseInt($(this).attr('min'));
-            maxValue =  parseInt($(this).attr('max'));
-            valueCurrent = parseInt($(this).val());
-            
-            name = $(this).attr('name');
-            if(valueCurrent >= minValue) {
-                $(".btn-number[data-type='minus'][data-field='"+name+"']").removeAttr('disabled')
-            } else {
-                alert('Sorry, the minimum value was reached');
-                $(this).val($(this).data('oldValue'));
-            }
-            if(valueCurrent <= maxValue) {
-                $(".btn-number[data-type='plus'][data-field='"+name+"']").removeAttr('disabled')
-            } else {
-                alert('Sorry, the maximum value was reached');
-                $(this).val($(this).data('oldValue'));
-            }
-            
-            
-        });
-        $(".input-number").keydown(function (e) {
-                // Allow: backspace, delete, tab, escape, enter and .
-                if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
-                    // Allow: Ctrl+A
-                    (e.keyCode == 65 && e.ctrlKey === true) || 
-                    // Allow: home, end, left, right
-                    (e.keyCode >= 35 && e.keyCode <= 39)) {
-                        // let it happen, don't do anything
-                        return;
-                }
-                // Ensure that it is a number and stop the keypress
-                if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
-                    e.preventDefault();
-                }
-            });
 
 
       </script>
