@@ -1844,6 +1844,22 @@ body {
     height: 52px; }
   .list-product .right .list-item .clear-left {
     clear: left; }
+  .list-product .right .best-product {
+    padding-top: 70px; }
+    .list-product .right .best-product .wr-best-product .heading-best-product {
+      margin-bottom: 30px; }
+      .list-product .right .best-product .wr-best-product .heading-best-product h2 {
+        margin: 0px;
+        font-weight: 600; }
+      .list-product .right .best-product .wr-best-product .heading-best-product h2::after {
+        content: "";
+        display: inline-block;
+        height: 0.50em;
+        vertical-align: bottom;
+        width: 74%;
+        margin-right: -100%;
+        margin-left: 30px;
+        border-top: 4px solid #212121; }
   .list-product .left {
     border: 2px solid #ECECEC; }
     .list-product .left p {
