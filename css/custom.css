@@ -1812,8 +1812,8 @@ body {
     -o-transition: .5s filter ease-in-out; }
   .list-product .right .list-item .col-item:hover .action-choice {
     visibility: visible;
-    top: 0px;
-    left: 25px;
+    top: -25px;
+    left: 0px;
     transition: 1s; }
   .list-product .right .list-item .carousel-inner > .item > a > img, .list-product .right .list-item .carousel-inner > .item > img, .list-product .right .list-item .img-responsive, .list-product .right .list-item .thumbnail a > img, .list-product .right .list-item .thumbnail > img {
     display: block;
