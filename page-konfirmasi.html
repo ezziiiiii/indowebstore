@@ -763,11 +763,14 @@
             });
         });
 
-        $(document).ready(function(){
-          $("#test").css({'display': 'none' });
-            $("#show-test").click(function(){
-                $("#test").animate({height: 'toggle'});
-                $("#test").css({'top':  138, 'position': 'fixed', 'z-index': 900 });
+        // script untuk nicescroll dropdown-custom cart
+        $(document).ready(function() {  
+            'use strict';
+
+            $(".dropdown-custom").niceScroll({
+                cursorcolor: "#eaeaea",
+                cursorwidth: "8px",
+                cursorborder: "none",
             });
         });
 

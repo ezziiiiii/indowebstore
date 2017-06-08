@@ -99,7 +99,9 @@ body {
         border-top: 3px solid #EE7E32;
         border-radius: 0px;
         padding: 0px;
-        width: 400px; }
+        width: 400px;
+        height: 300px;
+        overflow-x: auto; }
         .header .header-content .right li .dropdown-custom li {
           border-top: 1px solid #ECECEC;
           padding: 15px; }
@@ -238,7 +240,9 @@ body {
           border-radius: 0px;
           padding: 0px;
           width: 416px;
-          z-index: 910; }
+          z-index: 910;
+          height: 300px;
+          overflow-x: auto; }
           .header-fix .wr-header-fix .navigator .cart .dropdown-custom li {
             border-top: 1px solid #ECECEC;
             padding: 15px; }
