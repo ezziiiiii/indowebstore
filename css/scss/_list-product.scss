@@ -1,5 +1,8 @@
 //----------LIST-PRODUCT----------//
 .list-product {
+    .wr-list-product {
+        padding: 0px;
+    }
     .right {
         .shorting {
             button {
@@ -164,124 +167,72 @@
     }
 
     .left {
-        .best-product {
-            .heading-best-product {
-                h3 {
-                    font-weight: 600;
-                    margin: 0px
-                }
-                margin-bottom: 30px;
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 600;
+            margin: 0px;
+        }
+        .search {
+            .heading-search {
+                margin-bottom: 10px;
             }
-            .body-best-product {
-                .row {
-                    margin-bottom: 10px;
-                }
-                .gambar {
-                    .wr-gambar {
-                        img {
-                            filter: brightness(70%);
-                            -webkit-filter: brightness(70%);
-                            -moz-filter: brightness(70%);
-                            -ms-filter: brightness(70%);
-                            -o-filter: brightness(70%);
-                            -webkit-transition: 1s ease;
-                            -moz-transition: 1s ease;
-                            -ms-transition: 1s ease;
-                            -o-transition: 1s ease;
-                            transition: 1s ease;
-                        }
-                        img:hover{
-                            filter: brightness(100%);
-                            -webkit-filter: brightness(100%);
-                            -moz-filter: brightness(100%);
-                            -ms-filter: brightness(100%);
-                            -o-filter: brightness(100%);
-                            -webkit-transform: scale(1.08);
-                            -moz-transform: scale(1.08);
-                            -ms-transform: scale(1.08);
-                            -o-transform: scale(1.08);
-                            transform: scale(1.08);
-                        }
-                        position: relative;
-                        overflow: hidden;
-                    }
-                }
-                .detail {
-                    a {
-                        font-family: 'Open-Sans', sans-serif;
-                        font-weight: 600;
-                        font-size: 16px;
-                        color: $hitam;
-                        -webkit-transition: .2s color ease-in;
-                        -moz-transition: .2s color ease-in;
-                        -ms-transition: .2s color ease-in;
-                        -o-transition: .2s color ease-in;
-                        transition: .2s color ease-in;
-                    }
-                    a:hover {
-                        text-decoration: none;
-                        color: $orange;
-                    }
-                    .price-text-color {
-                        color: $biru-muda;
-                    }
-                    .sebelum {
-                        color: $merah;
-                    }
-                    .sebelum::before {
-                            content: "";
-                        display: inline-block;
-                        height: 0.85em;
-                        vertical-align: bottom;
-                        width: 60%;
-                        margin-right: -60%;
-                        margin-left: 1px;
-                        border-top: 2px solid $merah;
-                    }
-                }
-            }
-            margin-bottom: 40px;
+            padding: 15px 0px;
+            border-bottom: 1px solid $grey;
         }
 
-        .tags {
-            .heading-tags {
-                h3 {
-                    font-weight: 600;
-                    margin: 0px
-                }
-                margin-bottom: 30px;
+        .range-harga {
+            .heading-range {
+                margin-bottom: 10px;
             }
-            .body-tags {
-                ul {
-                    li {
-                        a {
-                            padding: 10px 15px;
-                            color: $hitam;
-                            font-family: 'PT Serif', serif;
-                            letter-spacing: 3px;
-                            font-weight: 600;
-                            font-size: 14px;
-                            -webkit-transition: .2s color ease-in;
-                            -moz-transition: .2s color ease-in;
-                            -ms-transition: .2s color ease-in;
-                            -o-transition: .2s color ease-in;
-                            transition: .2s color ease-in;
-                        }
-                        a:hover {
-                            text-decoration: none;
-                            color: $orange;
-                        }
-                        line-height: 40px;
-                        list-style: none;
-                     float: left;
-                     border: 1px solid $grey;
-                    }
-                    display: block;
-                    padding: 0px;
-                    margin: 0px;
+            .body-range {
+                input {
+                    margin-bottom: 10px;
+                }
+                button {
+                    background-color: $hijau;
+                    font-family: 'PT Serif',serif;
+                    color: $putih;
+                    letter-spacing: 1px;
+                    -webkit-transition: .2s background-color ease-in;
+                    -moz-transition: .2s background-color ease-in;
+                    -ms-transition: .2s background-color ease-in;
+                    -o-transition: .2s background-color ease-in;
+                    transition: .2s background-color ease-in;
+                }
+                button:hover {
+                    background-color: $hitam;
                 }
             }
+            padding: 15px 0px;
+            border-bottom: 1px solid $grey;
         }
+        .pengiriman {
+            .heading-pengiriman {
+                margin-bottom: 10px;
+            }
+            padding: 15px 0px;
+            border-bottom: 1px solid $grey;
+        }
+        .produk-pilihan {
+            .heading-produk-pilihan {
+                margin-bottom: 10px;
+            }
+            .body-produk-pilihan {
+                .pilihan {
+                    .list {
+                        input {
+                            margin-right: 10px;
+                        }
+                        list-style: none;
+                        margin-bottom: 10px;
+                    }
+                    margin: 0px;
+                    padding: 0px;
+                }
+            }
+            padding: 15px 0px;
+        }
+        border: 2px solid $grey;
     }
     padding: 70px 0px;
 }

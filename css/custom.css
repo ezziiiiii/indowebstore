@@ -1726,6 +1726,8 @@ body {
 
 .list-product {
   padding: 70px 0px; }
+  .list-product .wr-list-product {
+    padding: 0px; }
   .list-product .right .shorting {
     margin-bottom: 20px; }
     .list-product .right .shorting button {
@@ -1842,95 +1844,53 @@ body {
     height: 52px; }
   .list-product .right .list-item .clear-left {
     clear: left; }
-  .list-product .left .best-product {
-    margin-bottom: 40px; }
-    .list-product .left .best-product .heading-best-product {
-      margin-bottom: 30px; }
-      .list-product .left .best-product .heading-best-product h3 {
-        font-weight: 600;
-        margin: 0px; }
-    .list-product .left .best-product .body-best-product .row {
-      margin-bottom: 10px; }
-    .list-product .left .best-product .body-best-product .gambar .wr-gambar {
-      position: relative;
-      overflow: hidden; }
-      .list-product .left .best-product .body-best-product .gambar .wr-gambar img {
-        filter: brightness(70%);
-        -webkit-filter: brightness(70%);
-        -moz-filter: brightness(70%);
-        -ms-filter: brightness(70%);
-        -o-filter: brightness(70%);
-        -webkit-transition: 1s ease;
-        -moz-transition: 1s ease;
-        -ms-transition: 1s ease;
-        -o-transition: 1s ease;
-        transition: 1s ease; }
-      .list-product .left .best-product .body-best-product .gambar .wr-gambar img:hover {
-        filter: brightness(100%);
-        -webkit-filter: brightness(100%);
-        -moz-filter: brightness(100%);
-        -ms-filter: brightness(100%);
-        -o-filter: brightness(100%);
-        -webkit-transform: scale(1.08);
-        -moz-transform: scale(1.08);
-        -ms-transform: scale(1.08);
-        -o-transform: scale(1.08);
-        transform: scale(1.08); }
-    .list-product .left .best-product .body-best-product .detail a {
-      font-family: 'Open-Sans', sans-serif;
-      font-weight: 600;
-      font-size: 16px;
-      color: #212121;
-      -webkit-transition: .2s color ease-in;
-      -moz-transition: .2s color ease-in;
-      -ms-transition: .2s color ease-in;
-      -o-transition: .2s color ease-in;
-      transition: .2s color ease-in; }
-    .list-product .left .best-product .body-best-product .detail a:hover {
-      text-decoration: none;
-      color: #EE7E32; }
-    .list-product .left .best-product .body-best-product .detail .price-text-color {
-      color: #47A1DE; }
-    .list-product .left .best-product .body-best-product .detail .sebelum {
-      color: #CC0000; }
-    .list-product .left .best-product .body-best-product .detail .sebelum::before {
-      content: "";
-      display: inline-block;
-      height: 0.85em;
-      vertical-align: bottom;
-      width: 60%;
-      margin-right: -60%;
-      margin-left: 1px;
-      border-top: 2px solid #CC0000; }
-  .list-product .left .tags .heading-tags {
-    margin-bottom: 30px; }
-    .list-product .left .tags .heading-tags h3 {
+  .list-product .left {
+    border: 2px solid #ECECEC; }
+    .list-product .left p {
+      font-family: 'Open Sans', sans-serif;
       font-weight: 600;
       margin: 0px; }
-  .list-product .left .tags .body-tags ul {
-    display: block;
-    padding: 0px;
-    margin: 0px; }
-    .list-product .left .tags .body-tags ul li {
-      line-height: 40px;
-      list-style: none;
-      float: left;
-      border: 1px solid #ECECEC; }
-      .list-product .left .tags .body-tags ul li a {
-        padding: 10px 15px;
-        color: #212121;
-        font-family: 'PT Serif', serif;
-        letter-spacing: 3px;
-        font-weight: 600;
-        font-size: 14px;
-        -webkit-transition: .2s color ease-in;
-        -moz-transition: .2s color ease-in;
-        -ms-transition: .2s color ease-in;
-        -o-transition: .2s color ease-in;
-        transition: .2s color ease-in; }
-      .list-product .left .tags .body-tags ul li a:hover {
-        text-decoration: none;
-        color: #EE7E32; }
+    .list-product .left .search {
+      padding: 15px 0px;
+      border-bottom: 1px solid #ECECEC; }
+      .list-product .left .search .heading-search {
+        margin-bottom: 10px; }
+    .list-product .left .range-harga {
+      padding: 15px 0px;
+      border-bottom: 1px solid #ECECEC; }
+      .list-product .left .range-harga .heading-range {
+        margin-bottom: 10px; }
+      .list-product .left .range-harga .body-range input {
+        margin-bottom: 10px; }
+      .list-product .left .range-harga .body-range button {
+        background-color: #27AE60;
+        font-family: 'PT Serif',serif;
+        color: #fff;
+        letter-spacing: 1px;
+        -webkit-transition: .2s background-color ease-in;
+        -moz-transition: .2s background-color ease-in;
+        -ms-transition: .2s background-color ease-in;
+        -o-transition: .2s background-color ease-in;
+        transition: .2s background-color ease-in; }
+      .list-product .left .range-harga .body-range button:hover {
+        background-color: #212121; }
+    .list-product .left .pengiriman {
+      padding: 15px 0px;
+      border-bottom: 1px solid #ECECEC; }
+      .list-product .left .pengiriman .heading-pengiriman {
+        margin-bottom: 10px; }
+    .list-product .left .produk-pilihan {
+      padding: 15px 0px; }
+      .list-product .left .produk-pilihan .heading-produk-pilihan {
+        margin-bottom: 10px; }
+      .list-product .left .produk-pilihan .body-produk-pilihan .pilihan {
+        margin: 0px;
+        padding: 0px; }
+        .list-product .left .produk-pilihan .body-produk-pilihan .pilihan .list {
+          list-style: none;
+          margin-bottom: 10px; }
+          .list-product .left .produk-pilihan .body-produk-pilihan .pilihan .list input {
+            margin-right: 10px; }
 
 .checkout .wr-checkout {
   padding: 0px; }
