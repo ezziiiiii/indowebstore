@@ -98,7 +98,7 @@
                <button type="button" class="btn btn-default dropdown-toggle dropdown" data-toggle="dropdown">
                   <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge">2</span>
                </button>
-               <ul class="dropdown-menu dropdown-custom" role="menu">
+               <ul class="dropdown-menu dropdown-cart" role="menu">
                 <li>
                   <div class="list-cart">
                     <div class="left-cart col-md-3 col-sm-3">
@@ -223,7 +223,7 @@
               <button type="button" class="btn btn-default dropdown-toggle dropdown pull-right" data-toggle="dropdown">
                   <i class="fa fa-shopping-cart" aria-hidden="true"></i> <span class="badge">2</span>
               </button>
-              <ul class="dropdown-menu dropdown-custom" role="menu">
+              <ul class="dropdown-menu dropdown-cart" role="menu">
                 <li>
                   <div class="list-cart">
                     <div class="left-cart col-xs-3">
@@ -569,9 +569,19 @@
                     <div class="nama-produk col-md-9 col-sm-9">
                       <div class="heading-produk">
                         <h4 class="capital">nama barang</h4>
-                        <button class="btn capslock">
-                          <i class="fa fa-heart" aria-hidden="true"></i> wishlist
-                        </button>
+                        <div class="rate-wish">
+                          <div class="rating pull-left">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                          </div>
+                          <button class="btn capslock pull-right">
+                            <i class="fa fa-heart" aria-hidden="true"></i> wishlist
+                          </button>
+                          <div class="clearfix"></div>
+                        </div>
                       </div>
                       <div class="body-produk">
                         <h4 class="capital">rp. 100.000</h4>
@@ -800,7 +810,7 @@
         $(document).ready(function() {  
             'use strict';
 
-            $(".dropdown-custom").niceScroll({
+            $(".dropdown-cart").niceScroll({
                 cursorcolor: "#eaeaea",
                 cursorwidth: "8px",
                 cursorborder: "none",
