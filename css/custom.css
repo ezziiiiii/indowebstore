@@ -447,7 +447,7 @@ body {
             padding: 0px;
             left: 0px;
             clear: both;
-            width: 160px;
+            width: 100%;
             position: absolute; }
             .menu-fix .wr-menu-fix .menu ul li .dropdown-custom li {
               border-top: 1px solid #ECECEC;
