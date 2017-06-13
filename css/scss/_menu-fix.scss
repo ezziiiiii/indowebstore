@@ -5,7 +5,6 @@
             ul {
                 li {
                     a {
-                        float: left;
                         padding: 0px 15px;
                         color: $putih;
                         font-family: 'PT Serif', serif;
@@ -70,11 +69,13 @@
                         border-top: 3px solid $orange;
                         border-radius: 0px;
                         padding: 0px;
-                        left: 90px;
+                        left: 0px;
                         clear: both;
                         width: 160px;
+                        position: absolute;
                     }
                     list-style: none;
+                    float: left;
                 }
                 padding: 0px;
                 margin: 0px;

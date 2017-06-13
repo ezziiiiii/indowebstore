@@ -425,9 +425,9 @@ body {
         padding: 0px;
         margin: 0px; }
         .menu-fix .wr-menu-fix .menu ul li {
-          list-style: none; }
+          list-style: none;
+          float: left; }
           .menu-fix .wr-menu-fix .menu ul li a {
-            float: left;
             padding: 0px 15px;
             color: #fff;
             font-family: 'PT Serif', serif;
@@ -445,9 +445,10 @@ body {
             border-top: 3px solid #EE7E32;
             border-radius: 0px;
             padding: 0px;
-            left: 90px;
+            left: 0px;
             clear: both;
-            width: 160px; }
+            width: 160px;
+            position: absolute; }
             .menu-fix .wr-menu-fix .menu ul li .dropdown-custom li {
               border-top: 1px solid #ECECEC;
               display: inline-block;
