@@ -456,7 +456,7 @@ body {
               height: 39px;
               position: relative; }
               .menu-fix .wr-menu-fix .menu ul li .dropdown-custom li a {
-                padding: 10px 20px;
+                padding: 8px 20px;
                 font-family: 'PT Serif', serif;
                 letter-spacing: 2px;
                 font-weight: 600;
@@ -480,7 +480,7 @@ body {
                 height: 38px; }
                 .menu-fix .wr-menu-fix .menu ul li .dropdown-custom .dropdown-custom-2 li a {
                   display: block;
-                  padding: 10px 20px; }
+                  padding: 8px 20px; }
                 .menu-fix .wr-menu-fix .menu ul li .dropdown-custom .dropdown-custom-2 li a:hover {
                   background-color: #eaeaea; }
 
