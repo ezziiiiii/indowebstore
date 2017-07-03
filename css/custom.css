@@ -2112,8 +2112,14 @@ body {
             margin-bottom: 0px; }
         .page-cart .wr-page-cart .cart .list-cart .list .qty p {
           margin-bottom: 0px; }
-        .page-cart .wr-page-cart .cart .list-cart .list .qty input {
-          text-align: center; }
+        .page-cart .wr-page-cart .cart .list-cart .list .qty input#quantity {
+          text-align: center;
+          border-color: #212121; }
+        .page-cart .wr-page-cart .cart .list-cart .list .qty button.quantity-left-minus, .page-cart .wr-page-cart .cart .list-cart .list .qty button.quantity-right-plus {
+          background-color: transparent;
+          border-color: #212121; }
+        .page-cart .wr-page-cart .cart .list-cart .list .qty .icon-min, .page-cart .wr-page-cart .cart .list-cart .list .qty .icon-plus {
+          color: #212121; }
         .page-cart .wr-page-cart .cart .list-cart .list .harga button {
           padding: 0px;
           background-color: transparent;
@@ -2280,6 +2286,14 @@ body {
       letter-spacing: 1px;
       font-weight: 700;
       font-size: 14px; }
+    .single-produk .wr-single-produk .left .produk .nama-produk .body-produk input#quantity {
+      text-align: center;
+      border-color: #212121; }
+    .single-produk .wr-single-produk .left .produk .nama-produk .body-produk button.quantity-left-minus, .single-produk .wr-single-produk .left .produk .nama-produk .body-produk button.quantity-right-plus {
+      background-color: transparent;
+      border-color: #212121; }
+    .single-produk .wr-single-produk .left .produk .nama-produk .body-produk .icon-min, .single-produk .wr-single-produk .left .produk .nama-produk .body-produk .icon-plus {
+      color: #212121; }
     .single-produk .wr-single-produk .left .produk .nama-produk .footer-produk button {
       font-family: 'PT Serif', serif;
       letter-spacing: 2px;

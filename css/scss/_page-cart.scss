@@ -70,8 +70,16 @@
                         p {
                             margin-bottom: 0px;
                         }
-                        input {
-                            text-align: center
+                        input#quantity {
+                            text-align: center;
+                            border-color: $hitam;
+                        }
+                        button.quantity-left-minus, button.quantity-right-plus {
+                            background-color: transparent;
+                            border-color: $hitam;
+                        }
+                        .icon-min, .icon-plus {
+                            color: $hitam;
                         }
                     }
                     .harga {

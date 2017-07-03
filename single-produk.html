@@ -589,14 +589,14 @@
                         <p class="capital">masukan jumlah barang</p>
                         <div class="input-group col-md-3 col-sm-3 col-xs-3">
                             <span class="input-group-btn">
-                                <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
-                                    <span class="glyphicon glyphicon-minus"></span>
+                                <button type="button" class="quantity-left-minus btn btn-danger btn-number"  data-type="minus" data-field="">
+                                  <span class="icon-min glyphicon glyphicon-minus"></span>
                                 </button>
                             </span>
-                            <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                            <input type="text" id="quantity" name="quantity" class="form-control input-number" value="10" min="1" max="100">
                             <span class="input-group-btn">
-                                <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
-                                    <span class="glyphicon glyphicon-plus"></span>
+                                <button type="button" class="quantity-right-plus btn btn-success btn-number" data-type="plus" data-field="">
+                                    <span class="icon-plus glyphicon glyphicon-plus"></span>
                                 </button>
                             </span>
                         </div>
@@ -1438,6 +1438,44 @@
         // Curently there are no option available.
 
         $('#bootstrap-touch-slider').bsTouchSlider();
+
+
+        //script untuk quantity
+
+        $(document).ready(function(){
+
+          var quantitiy=0;
+            $('.quantity-right-plus').click(function(e){
+                  
+                  // Stop acting like a button
+                  e.preventDefault();
+                  // Get the field name
+                  var quantity = parseInt($('#quantity').val());
+                  
+                  // If is not undefined
+                      
+                      $('#quantity').val(quantity + 1);
+
+                    
+                      // Increment
+                  
+              });
+
+              $('.quantity-left-minus').click(function(e){
+                  // Stop acting like a button
+                  e.preventDefault();
+                  // Get the field name
+                  var quantity = parseInt($('#quantity').val());
+                  
+                  // If is not undefined
+                
+                      // Increment
+                      if(quantity>0){
+                      $('#quantity').val(quantity - 1);
+                      }
+              });
+              
+          });
 
 
       </script>
