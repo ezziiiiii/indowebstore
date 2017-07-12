@@ -2237,7 +2237,8 @@ body {
     .page-konfirmasi .wr-page-konfirmasi .right .status {
       border: 1px solid #264C84; }
       .page-konfirmasi .wr-page-konfirmasi .right .status .panel-heading {
-        background-color: #264C84; }
+        background-color: #264C84;
+        border: 1px solid #264C84; }
         .page-konfirmasi .wr-page-konfirmasi .right .status .panel-heading h3 {
           letter-spacing: 2px;
           color: #fff; }
@@ -2614,5 +2615,54 @@ body {
       transition: .2s background-color ease-in; }
     .history-transaksi .wr-history-transaksi .transaksi .list-transaksi .panel-body .action a:hover {
       background-color: #212121; }
+
+.single-history .wr-single-history .left .pembelian {
+  border: 1px solid #264C84; }
+  .single-history .wr-single-history .left .pembelian .panel-heading {
+    background-color: #264C84;
+    border: 1px solid #264C84; }
+    .single-history .wr-single-history .left .pembelian .panel-heading h3 {
+      color: #fff;
+      letter-spacing: 2px; }
+  .single-history .wr-single-history .left .pembelian .panel-body {
+    padding: 0px; }
+    .single-history .wr-single-history .left .pembelian .panel-body .list-detail {
+      padding: 15px;
+      border-top: 1px solid #264C84;
+      overflow: hidden; }
+      .single-history .wr-single-history .left .pembelian .panel-body .list-detail span {
+        color: #b6b6b6;
+        font-size: 12px;
+        letter-spacing: 1px; }
+      .single-history .wr-single-history .left .pembelian .panel-body .list-detail p {
+        font-family: 'Open-Sans', sans-serif;
+        color: #212121; }
+      .single-history .wr-single-history .left .pembelian .panel-body .list-detail button {
+        background-color: #27AE60;
+        color: #fff;
+        -webkit-transition: .2s background-color ease-in;
+        -moz-transition: .2s background-color ease-in;
+        -ms-transition: .2s background-color ease-in;
+        -o-transition: .2s background-color ease-in;
+        transition: .2s background-color ease-in; }
+      .single-history .wr-single-history .left .pembelian .panel-body .list-detail button:hover {
+        background-color: #212121; }
+.single-history .wr-single-history .right .status {
+  border-color: #264C84; }
+  .single-history .wr-single-history .right .status .panel-heading {
+    background-color: #264C84;
+    border: 1px solid #264C84; }
+    .single-history .wr-single-history .right .status .panel-heading h3 {
+      color: #fff;
+      letter-spacing: 2px; }
+  .single-history .wr-single-history .right .status .panel-body {
+    padding: 0px; }
+    .single-history .wr-single-history .right .status .panel-body .list-status {
+      padding: 15px;
+      border-top: 1px solid #264C84; }
+      .single-history .wr-single-history .right .status .panel-body .list-status span {
+        color: #b6b6b6;
+        font-size: 12px;
+        letter-spacing: 1px; }
 
 /*# sourceMappingURL=custom.css.map */
